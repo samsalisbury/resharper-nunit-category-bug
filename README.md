@@ -3,7 +3,7 @@ resharper-nunit-category-bug
 
 Issues with ReSharper recognising NUnit test fixture categories
 
-# Issue 1: Run all tests - erroneous `Uncategorized` category
+## Issue 1: Run all tests - erroneous `Uncategorized` category
 
 To Reproduce:
 
@@ -21,7 +21,7 @@ To Reproduce:
 * One individual test has passed (the one in 'Cat1'). Being the only test in that category, the category should also have passed.
 
 
-# Issue #2: Run one passing test in one category - all categories said to have passed
+## Issue #2: Run one passing test in one category - all categories said to have passed
 
 To Reproduce:
 
